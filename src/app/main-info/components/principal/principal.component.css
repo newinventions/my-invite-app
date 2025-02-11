@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Old+Standard+TT|Montserrat|Great+Vibes|Fredericka+the+Great|Josefin+Slab|Pacifico');
+
+.bckgrndImg {
+    height: 590px;
+    background-image: url("../../../../assets/main-info/main-info_Low.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-position-x: center;
+}
+.eventName {
+  margin-top: 18px;
+  text-align: center;
+  font-family: Raleway, serif;
+  font-size: 22px;
+  color: white;
+  animation: glow 3s ease-in-out infinite alternate;
+  letter-spacing: 4px;
+}
+@keyframes glow {
+  from {
+    text-shadow: 5px 5px 20px #fff, 5px 5px 30px #fff,
+    5px 5px 30px #f30000, 5px 5px 40px #e06500, 5px 5px 50px #b30000, 5px 5px 60px #8d0010, 5px 5px 70px #700520;
+  }
+
+  to {
+    text-shadow: 1px 1px 20px #fff, 1px 1px 30px #ffd,
+    1px 1px 40px #ffc423, 1px 1px 50px #ff7b00, 1px 1px 60px #fffb2b, 1px 1px 70px #fff01f, 1px 1px 80px #ff9900;
+  }
+}
+.pName {
+  margin-top: -60px;
+  text-align: center;
+  font-family: Old Standard TT, serif;
+  font-size: 45px;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+}
+p.h1Name {
+  font-family: Old Standard TT, serif;
+  margin-top: -125px;
+}
+p.h2Name {
+  font-family: Old Standard TT, serif;
+  margin-top: -30px;
+}
+p.h3Name {
+  font-family: Great Vibes, serif;
+  font-size: 90px;
+  margin-bottom: -55px;
+  color: sandybrown;
+  text-shadow: 0px 0px 0px brown;
+}
+.counter {
+  text-align: center;
+  font-family: Old Standard TT, serif;
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+}
+.colon {
+  text-align: center;
+  font-family: Old Standard TT, serif;
+  font-size: 12px;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+}
+.counterTitle {
+  margin-top: -15px;
+  text-align: center;
+  font-family: Old Standard TT, serif;
+  font-size: 15px;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+}
+.timeCounter {
+  margin-top: 265px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 20px;
+  table-layout: auto;
+  width: 270px;
+}
+.timeOverMsg {
+  margin-top: -25px;
+  text-align: center;
+  font-family: Raleway, serif;
+  font-size: 16px;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+}
+@media all and (max-width: 619px) and (min-width: 414px) {
+  .bckgrndImg {
+      height: 680px;
+  }
+  .eventName {
+    margin-top: 25px;
+    font-size: 24px;
+    letter-spacing: 4px;
+  }
+  .pName {
+      margin-top: -60px;
+      font-size: 50px;
+  }
+  p.h1Name {
+    margin-top: -185px;
+  }
+  p.h2Name {
+    margin-top: -30px;
+  }
+  p.h3Name {
+    font-size: 100px;
+    margin-bottom: 45px;
+  }
+  .counter {
+      font-size: 50px;
+  }
+  .colon {
+      font-size: 14px;
+  }
+  .counterTitle {
+      margin-top: -15px;
+      font-size: 17px;
+  }
+  .timeCounter {
+      margin-top: 290px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-right: 20px;
+      table-layout: auto;
+      width: 400px;
+  }
+  .timeOverMsg {
+      margin-top: -8px;
+      font-size: 18px;
+  }
+}
+@media all and (max-width: 799px) and (min-width: 620px) {
+  .bckgrndImg {
+      height: 725px;
+      background-position: center 880px;
+  }
+  .eventName {
+    margin-top: 35px;
+    font-size: 24px;
+    letter-spacing: 4px;
+  }
+  .pName {
+      margin-top: -90px;
+      font-size: 70px;
+  }
+  p.h1Name {
+    margin-top: -185px;
+  }
+  p.h2Name {
+    margin-top: -40px;
+  }
+  p.h3Name {
+    font-size: 130px;
+    margin-bottom: -20px;
+  }
+  .counter {
+      font-size: 60px;
+  }
+  .colon {
+      font-size: 16px;
+  }
+  .counterTitle {
+      margin-top: -15px;
+      font-size: 18px;
+  }
+  .timeCounter {
+      margin-top: 250px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-right: 25px;
+      table-layout: auto;
+      width: 610px;
+  }
+  .timeOverMsg {
+      margin-top: -15px;
+      font-size: 28px;
+  }
+}
+@media all and (max-width: 1000px) and (min-width: 800px) {
+  .bckgrndImg {
+      height: 850px;
+      background-position: center 1050px;
+  }
+  .eventName {
+    margin-top: 40px;
+    font-size: 26px;
+    letter-spacing: 4px;
+}
+  .pName {
+      margin-top: -90px;
+      font-size: 73px;
+  }
+  p.h1Name {
+    margin-top: -200px;
+  }
+  p.h2Name {
+    margin-top: -45px;
+  }
+  p.h3Name {
+    font-size: 136px;
+    margin-bottom: -40px;
+  }
+  .counter {
+      font-size: 70px;
+  }
+  .colon {
+      font-size: 18px;
+  }
+  .counterTitle {
+      margin-top: -15px;
+      font-size: 28px;
+  }
+  .timeCounter {
+      margin-top: 310px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-right: 50px;
+      table-layout: fixed;
+      width: 750px;
+  }
+  .timeOverMsg {
+      margin-top: 36px;
+      font-size: 36px;
+      line-height: 35px;
+  }
+}
+@media all and (min-width: 1001px) {
+  .bckgrndImg {
+      height: 950px;
+      background-size: 1300px;
+      background-position: center 1450px;
+  }
+  .eventName {
+    margin-top: 40px;
+    font-size: 28px;
+    letter-spacing: 4px;
+  }
+  .pName {
+      margin-top: -90px;
+      font-size: 75px;
+  }
+  p.h1Name {
+    margin-top: -200px;
+  }
+  p.h2Name {
+    margin-top: -45px;
+  }
+  p.h3Name {
+    font-size: 140px;
+    margin-bottom: -40px;
+  }
+  .counter {
+      font-size: 80px;
+  }
+  .colon {
+      font-size: 20px;
+  }
+  .counterTitle {
+      margin-top: -15px;
+      font-size: 30px;
+  }
+  .timeCounter {
+      margin-top: 320px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-right: 50px;
+      table-layout: fixed;
+      width: 800px;
+  }
+  .timeOverMsg {
+      margin-top: 45px;
+      font-size: 50px;
+      line-height: 45px;
+  }
+}
